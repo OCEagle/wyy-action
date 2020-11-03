@@ -90,7 +90,7 @@ for x in object['recommend']:
         data2["json"]["wifi"]=0
         buffer.append(data2)
         count+=1
-        if count>=310:
+        if count>=1000:
             break
     if count>=310:
         break
