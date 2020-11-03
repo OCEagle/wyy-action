@@ -92,7 +92,7 @@ for x in object['recommend']:
         count+=1
         if count>=1000:
             break
-    if count>=310:
+    if count>=1000:
         break
 url = "http://music.163.com/weapi/feedback/weblog"
 postdata={
